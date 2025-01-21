@@ -44,6 +44,10 @@
   font-size: 2.62rem;
 }
 
+.txt-size-46 {
+  font-size: 2.87rem;
+}
+
 .disply-flex {
   display: flex;
 }
@@ -57,7 +61,26 @@
   margin: 0 140px;
 }
 
-.card {
+/* #endregion shared */
+
+/* #region main */
+main {
+  background-image: url("../assets/bg.png"),
+    linear-gradient(0deg, rgb(248, 224, 180), white);
+  max-width: 1439px;
+  margin: 0 auto;
+}
+/* #endregion main */
+
+/* #region our stories */
+
+.story-title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.story-card {
   max-width: 290px;
   max-height: 301px;
   border-radius: 16px;
@@ -65,18 +88,19 @@
   position: relative;
 }
 
-.card img {
+.story-card-img {
   max-width: 100%;
   max-height: 177px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
 
-.card p {
+.story-card-description {
   padding: 38px 38px 28px 38px;
+  line-height: 28.8px;
 }
 
-.card-date {
+.story-card-date {
   border-radius: 48px;
 
   padding: 9px 18px;
@@ -86,23 +110,74 @@
   left: 37px;
 }
 
-.card-date-bg1 {
+.story-card-date-bg1 {
   background-color: #95b226;
 }
 
-/* #endregion shared */
+.story1 {
+  grid-area: story1;
 
-/* #region main */
-main {
-  background-image: url("../assets/bg.png"),
-    linear-gradient(0deg, rgb(248, 224, 180), white);
-
-  /* height: 1000px; */
+  max-width: 540.27px;
+  max-height: 630.52px;
 }
-/* #endregion main */
 
-/* #region our stories */
+.story1-img {
+  max-width: 540px;
+  max-height: 337px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
 
+.story1-card-date {
+  border-radius: 48px;
+  padding: 15px 18px;
+  max-width: 174px;
+  position: absolute;
+  top: 314px;
+  left: 37px;
+  background-color: #3cd8e8;
+}
+
+.story1-card-titile {
+  padding-top: 61.51px;
+  padding-left: 38.35px;
+  padding-right: 99.43px;
+}
+
+.story2 {
+  grid-area: story2;
+}
+.story3 {
+  grid-area: story3;
+}
+.story4 {
+  grid-area: story4;
+}
+.story5 {
+  grid-area: story5;
+}
+
+.disply-grid-container {
+  gap: 20px;
+  grid-template-areas:
+    "story1 story2 story3"
+    "story1 story4 story5";
+}
+
+.story-container-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.story-container-btn {
+  padding: 10px 61px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+}
 /* #endregion our stories */
 
 /* #region footer */
