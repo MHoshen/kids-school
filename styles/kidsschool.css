@@ -21,3 +21,44 @@
 }
 
 /* #endregion shared */
+
+/* #region footer */
+footer {
+  background-color: rgba(1, 172, 253, 1);
+}
+.footer-container {
+  padding-left: 140px;
+  padding-right: 228.09px;
+  padding-top: 123px;
+  padding-bottom: 174px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  height: 81.65px;
+  width: 299.71px;
+}
+
+.footer-logo-title {
+  font-size: 2.625rem;
+}
+
+.footer-logo img {
+  width: 82.9px;
+  height: 81.65px;
+  opacity: 100%;
+}
+
+.footer-logo-description {
+  width: 399.02px;
+  margin-top: 35.35px;
+  margin-left: 7px;
+}
+
+/* #endregion footer */
