@@ -32,6 +32,10 @@
   font-weight: 600;
 }
 
+.txt-size-15 {
+  font-size: 0.93rem;
+}
+
 .txt-size-20 {
   font-size: 1.25rem;
 }
@@ -61,6 +65,12 @@
   margin: 0 140px;
 }
 
+.section-title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
 /* #endregion shared */
 
 /* #region main */
@@ -72,13 +82,50 @@ main {
 }
 /* #endregion main */
 
-/* #region our stories */
-
-.story-title {
+/* #region Standard Curriculum */
+.curriculum-card {
+  max-width: 367.8px;
+  max-height: 476.78px;
+  padding: 52px 40px 53px;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  border: 1px;
+  border-radius: 18.86px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 15px 15px #def5ff;
 }
+
+.curriculum-card-title {
+  margin-top: 32px;
+}
+
+.curriculum-card-description {
+  margin: 33px 0px;
+  line-height: 28.3px;
+}
+
+.curriculum-card-btn {
+  line-height: 28.3px;
+}
+
+.lider-btn-container {
+  justify-content: center;
+  gap: 10px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.slider-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/* #endregion Standard Curriculum */
+
+/* #region our stories */
 
 .story-card {
   max-width: 290px;
@@ -103,7 +150,6 @@ main {
 
 .story-card-date {
   border-radius: 48px;
-
   padding: 9px 18px;
   max-width: 174px;
   position: absolute;
@@ -265,7 +311,7 @@ footer {
     margin: 0 16px;
   }
 
-  .story-title {
+  .section-title {
     margin-top: 40px;
     margin-bottom: 40px;
   }
