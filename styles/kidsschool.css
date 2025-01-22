@@ -417,6 +417,10 @@ footer {
     max-height: 92px;
   }
 
+  .lider-btn-container {
+    display: none;
+  }
+
   .disply-grid-container {
     gap: 11.31px;
     grid-template-areas:
