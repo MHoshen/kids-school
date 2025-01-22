@@ -83,15 +83,47 @@ main {
 /* #endregion main */
 
 /* #region Standard Curriculum */
+.curriculum-card-container {
+  justify-content: space-around;
+}
 .curriculum-card {
   max-width: 367.8px;
   max-height: 476.78px;
   padding: 52px 40px 53px;
   text-align: center;
-  border: 1px;
+}
+
+.curriculum-card-bg1 {
+  border: 1px solid #def5ff;
   border-radius: 18.86px;
   background-color: #ffffff;
-  box-shadow: inset 0px 15px 15px #def5ff;
+  box-shadow: inset 0px 50px 50px #def5ff;
+}
+
+.curriculum-card-bg1 h4 {
+  color: #64c8ff;
+}
+
+.curriculum-card-bg2 {
+  border: 1px solid #fff4dc;
+  border-radius: 18.86px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 50px 50px #fff4dc;
+}
+
+.curriculum-card-bg2 h4 {
+  color: #f0aa00;
+}
+
+.curriculum-card-bg3 {
+  border: 1px solid #f2e8ff;
+  border-radius: 18.86px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 50px 50px #f2e8ff;
+}
+
+.curriculum-card-bg1 h4 {
+  color: #8700ff;
 }
 
 .curriculum-card-title {
@@ -315,6 +347,23 @@ footer {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
+  .curriculum-card-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .curriculum-card {
+    max-width: 357px;
+    max-height: 321px;
+    padding: 36px 28px;
+  }
+
+  .curriculum-card img {
+    max-width: 92px;
+    max-height: 92px;
+  }
+
   .disply-grid-container {
     gap: 11.31px;
     grid-template-areas:
