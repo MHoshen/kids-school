@@ -52,6 +52,18 @@
   font-size: 2.87rem;
 }
 
+.txt-size-56 {
+  font-size: 3.5rem;
+}
+
+.txt-orange {
+  color: orange;
+}
+
+.txt-sky-blue {
+  color: skyblue;
+}
+
 .disply-flex {
   display: flex;
 }
@@ -61,7 +73,7 @@
 }
 
 .section-container {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   margin: 0 140px;
 }
 
@@ -81,6 +93,31 @@ main {
   margin: 0 auto;
 }
 /* #endregion main */
+
+/* #region banner */
+.banner-container {
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  width: 640px;
+  height: 183px;
+}
+.banner-title {
+}
+.banner-description {
+  padding: 24px 0;
+}
+
+.banner-btn {
+  padding: 10px 47px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 12px;
+}
+
+/* #endregion banner */
 
 /* #region Standard Curriculum */
 .curriculum-card-container {
