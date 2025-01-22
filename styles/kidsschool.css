@@ -44,6 +44,10 @@
   font-size: 1.5rem;
 }
 
+.txt-size-32 {
+  font-size: 2rem;
+}
+
 .txt-size-42 {
   font-size: 2.62rem;
 }
@@ -62,6 +66,14 @@
 
 .txt-sky-blue {
   color: skyblue;
+}
+
+.txt-a {
+  color: #05d4df;
+}
+
+.txt-b {
+  color: #5d58ef;
 }
 
 .disply-flex {
@@ -93,6 +105,35 @@ main {
   margin: 0 auto;
 }
 /* #endregion main */
+
+/* #region nav */
+.navbar-logo {
+  align-items: center;
+  gap: 11px;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  list-style: none;
+}
+
+.navbar-items a {
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar-btn {
+  padding: 15px 60px;
+  border: none;
+  border-radius: 12px;
+  background-color: orange;
+  color: white;
+}
+/* #endregion nav */
 
 /* #region banner */
 .banner-container {
