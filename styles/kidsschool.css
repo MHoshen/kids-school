@@ -90,9 +90,10 @@ main {
 
 .story-card-img {
   max-width: 100%;
-  max-height: 177px;
+  max-height: 183px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  object-fit: cover;
 }
 
 .story-card-description {
@@ -273,7 +274,7 @@ footer {
     grid-template-areas:
       "story2 story3"
       "story4 story5";
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
   }
 
   .story-card-img {
