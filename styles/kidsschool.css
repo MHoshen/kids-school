@@ -133,6 +133,19 @@ main {
   background-color: orange;
   color: white;
 }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
 /* #endregion nav */
 
 /* #region banner */
@@ -430,6 +443,20 @@ footer {
   .section-title {
     /* margin-top: 40px; */
     margin-bottom: 40px;
+  }
+
+  .navbar {
+    border-bottom: 1px solid orange;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-title,
+  .navbar-items,
+  .navbar-btn {
+    display: none;
   }
 
   .banner-container {
