@@ -6,6 +6,28 @@
   padding: 0;
 }
 
+@keyframes slidein {
+  from {
+    left: 0;
+  }
+  to {
+    left: 80%;
+    background-color: rgb(246, 130, 130);
+  }
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee p {
+  position: relative;
+  animation: slidein 25s linear 1s infinite alternate;
+}
+
 .quicksand-regular {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -465,6 +487,11 @@ footer {
   .navbar-items,
   .navbar-btn {
     display: none;
+  }
+
+  .marquee p {
+    /* position: relative; */
+    animation: slidein 10s linear 1s infinite alternate;
   }
 
   .banner-container {
